@@ -1,0 +1,26 @@
+/* Fix text capitalization issues */
+.font-sanskrit {
+  text-transform: none !important;
+}
+
+/* Ensure login and register text maintains proper capitalization */
+button[class*="login"], 
+button[class*="signUp"],
+button[class*="createAccount"] {
+  text-transform: none !important;
+}
+
+/* Ensure disclaimer text maintains proper capitalization */
+.text-xs.text-center.text-\[\#8C5A2A\]\/70.mt-2 {
+  text-transform: none !important;
+}
+
+/* Fix for buttons in AuthView */
+.flex.border-b-2.border-\[\#D4AF37\]\/30.mb-6 button {
+  text-transform: none !important;
+}
+
+/* General fix for any text that might be affected */
+* {
+  text-transform: none !important;
+}
